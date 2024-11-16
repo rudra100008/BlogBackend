@@ -6,7 +6,7 @@ spring:
       max-request-size: 50MB
   data:
     mongodb:
-      uri: mongodb://mongo:OhHtyGoHkgiHjtOvwcuaSEJGeUmJYXEs@mongodb.railway.internal:27017/blog?ssl=true&retryWrites=true
+      uri: ${MONGO_URL}
       auto-index-creation: false
 
 jwt:
