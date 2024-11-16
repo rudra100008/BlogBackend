@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://${{MONGO_INITDB_ROOT_USERNAME}}:XiPLYyQtqIAdZyBdCqxviUWGptIjgjcC@${{RAILWAY_PRIVATE_DOMAIN}}:27017/blog  # Railway will provide this
+      uri: mongodb://mongo:XiPLYyQtqIAdZyBdCqxviUWGptIjgjcC@${{RAILWAY_PRIVATE_DOMAIN}}:27017/blog  # Railway will provide this
       auto-index-creation: false
 
 jwt:
