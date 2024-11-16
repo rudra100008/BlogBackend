@@ -7,6 +7,8 @@ spring:
   data:
     mongodb:
       uri: ${MONGO_URL}/blog
+      database: blog
+      authentication-database: admin
       auto-index-creation: false
 
 jwt:
