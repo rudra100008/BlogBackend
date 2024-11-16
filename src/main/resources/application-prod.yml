@@ -6,7 +6,7 @@ spring:
       max-request-size: 50MB
   data:
     mongodb:
-      uri: mongodb://mongo:OhHtyGoHkgiHjtOvwcuaSEJGeUmJYXEs@mongodb.railway.internal:27017/blog  # Railway will provide this
+      uri: mongodb://mongo:OhHtyGoHkgiHjtOvwcuaSEJGeUmJYXEs@autorack.proxy.rlwy.net:37168/blog?ssl=true
       auto-index-creation: false
 
 jwt:
