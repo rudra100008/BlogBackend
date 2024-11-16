@@ -6,11 +6,9 @@ spring:
       max-request-size: 50MB
   data:
     mongodb:
-      uri: ${MONGO_URL}/blog
+      uri: ${MONGO_URL}
       database: blog
       authentication-database: admin
-      auto-index-creation: false
-
 jwt:
   token:
     validity: 18000000
