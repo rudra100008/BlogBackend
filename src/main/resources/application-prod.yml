@@ -7,4 +7,4 @@ spring:
 jwt:
   token:
     validity: 18000000
-    secret: ${JWT_SECRET_KEY}
+    secret:  bSpklEFrxjndNKXEHx+dINawVmCwGyjJyws1zhqlkJc=
