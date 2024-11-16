@@ -6,7 +6,7 @@ spring:
       max-request-size: 50MB
   data:
     mongodb:
-      uri: ${MONGO_URL}
+      uri: ${MONGO_URL}/blog
       auto-index-creation: false
 
 jwt:
